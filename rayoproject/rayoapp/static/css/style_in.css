@@ -18,32 +18,11 @@ body {
 
 
 header {
-    background-color: #3a83f0;
-    height: auto;
-    text-align: center;
+    height: 150px;
 }
 
 .margen {
     margin-right: 5%;
-}
-
-.buscar-font {
-    font-family: 'M PLUS Rounded 1c', sans-serif !important;
-    font-weight: 300;
-    font-size: 18px;
-    max-height: 40px;
-    margin-top: 6px;
-
-}
-
-.nav-link {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #ffffff;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 .nav-link:hover {
@@ -62,7 +41,7 @@ header {
 
 .ImgLogo {
     margin-left: 5%;
-    width: 65px;
+    width: 100px;
     align-items: center;
 }
 
@@ -165,11 +144,6 @@ header {
     filter: brightness(0.4);
 }
 
-.btn {
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
 .tamaño-font h4 {
     font-weight: 700 !important;
     font-size: 30px !important;
@@ -187,15 +161,9 @@ header {
 
 
 
-.img-card {
-    height: 300px !important;
-    object-fit: cover;
+.img-card-img-top {
     filter: brightness(0.8);
-    border-bottom: 2px #ff1a1a !important;
-}
 
-.img-card {
-    border-radius: 5%;
 }
 
 .card-mecanico {
@@ -245,3 +213,9 @@ header {
     transform: scale(1.3);
     border-color: rgba(105, 89, 89, 0.075);
 }
+
+footer {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+  }
